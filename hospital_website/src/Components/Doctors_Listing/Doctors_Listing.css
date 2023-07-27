@@ -1,0 +1,90 @@
+.Doctors {
+    background-color: var(--Alice-blue);
+    padding-bottom: 30rem;
+}
+.Doctors article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: auto;
+    padding-top: 5rem;
+    width: 1200px;
+}
+.Doctors section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.Doctors h4 {
+    color: var(--Gray-web);
+    font-size: var(--H4);
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+.Doctors h2 {
+    color: var(--Midnight-green);
+    font-family: 'Oswald', sans-serif;
+    font-size: var(--H2);
+    margin-bottom: 1rem;
+}
+.Doctors section div {
+    margin-right: 17.6rem;
+}
+.Doctors figure {
+    background-color: var(--Alice-blue);
+    border: 2px solid hsl(182, 100%, 35%, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    padding: 0.8rem 0.8rem;
+    transition: all 0.3s linear;
+    width: 280px;
+}
+.Doctors figure:hover {
+    transform: translateY(-10%);
+}
+.Doctors figure h3 {
+    color: var(--Ming);
+    font-family: 'Oswald', sans-serif;
+    font-size: var(--H3);
+    margin-bottom: 0.5rem;
+}
+.Doctors figure p {
+    color: var(--Independece);
+    font-size: 14px
+}
+
+@media screen and (max-width:375px) {
+    .Doctors {
+        padding-bottom: 20rem;
+    }
+    .Doctors article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        margin: auto;
+        padding-top: 5rem;
+        width: 375px;
+    }
+    .Doctors section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        width: 350px;
+    }       
+    .Doctors h2 {
+        color: var(--Midnight-green);
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        margin-bottom: 1rem;
+        width: 350px;
+    }
+    .Doctors section div {
+        margin-right: 0rem;
+        margin-left: 4rem;
+    }
+}

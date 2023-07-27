@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    width: 0.85rem;
+}
+html::-webkit-scrollbar-track {
+    background-color: var(--White);
+}
+html::-webkit-scrollbar-thumb {
+    background-color: var(--Midnight-green);
+}
+:root {
+
+  /* FONT SIZE */
+
+    --H1: 60px;
+    --H2: 35px;
+    --H3: 18px;
+    --H4: 15px;
+    --H5: 13px;
+
+  /* COLORS */
+
+    --Rich-black-fogra-29: hsl(222, 44%, 8%);
+    --Middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
+    --Midnight-green: hsl(186, 100%, 19%);
+    --Midnight-green_a25: hsla(186, 100%, 19%, 0.25);
+    --Independece: hsl(236, 14%, 39%);
+    --Verdigris: hsl(182, 100%, 35%);
+    --Ming: hsl(186, 72%, 24%);
+    --Space-cadet: hsla(226, 45%, 24%);
+    --Eerie-black: hsl(0, 0%, 13%);
+    --Alice-blue: hsl(187, 25%, 94%);
+    --Gray-web: hsl(0, 0%, 50%);
+    --Gainsboro: hsl(0, 0%, 87%);
+    --White: hsl(0, 0%, 100%);
+    --White_a20: hsla(0, 0%, 100%, 0.2);
+    --White_a10: hsla(0, 0%, 100%, 0.1);
+    --Black: hsl(0, 0%, 0%);
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}

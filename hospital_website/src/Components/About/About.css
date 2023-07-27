@@ -1,0 +1,96 @@
+.About {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    margin: auto;
+    margin-bottom: 8rem;
+    width: 1200px; 
+}
+.About h4 {
+    color: var(--Gray-web);
+    font-size: var(--H4);
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+.About h2 {
+    color: var(--Midnight-green);
+    font-family: 'Oswald', sans-serif;
+    font-size: var(--H2);
+    margin-bottom: 1rem;
+}
+.About p {
+    color: var(--Independece);
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.Message {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.Message button {
+    background-color: var(--Alice-blue);
+    border: none;
+    border-radius: 4px;
+    color: var(--Ming);
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.5rem 1.6rem;
+}
+.Message button:first-child {
+    background-color: var(--Verdigris);
+    color: var(--Alice-blue);
+}
+.List {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+.About li {
+    color: var(--Independece);
+    font-size: 14px;
+    list-style-type: none;
+    margin-bottom: 1.5rem;
+}
+.About img {
+    margin-top: -6rem;
+    width: 500px;
+}
+
+@media screen and (max-width:375px) {
+    .About {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4.5rem;
+        margin: auto;
+        width: 375px;
+    }
+    .About section:first-child {
+        margin-left: -3.2rem;
+        width: 300px;
+    }
+    .About h2 {
+        font-size: 28px;
+    }
+    .About p {
+        font-size: 12px;
+        width: 300px;
+    }
+    .List {
+        display: flex;
+        flex-direction: column;
+    }
+    .About li {
+        font-size: 12px;
+    }
+    .About img {
+        width: 250px;
+    }
+}

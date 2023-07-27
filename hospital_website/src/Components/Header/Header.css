@@ -1,0 +1,105 @@
+.Header {
+    background-image: url(../../Images/hero-bg.png);
+    background-color: var(--Midnight-green);
+    padding: 1rem 0rem;
+    z-index: 2;
+}
+.Header article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+    width: 1100px;
+}
+.Header section {
+    display: flex;
+    flex-direction: row;
+}
+.Header ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.Header li {
+    color: var(--White);
+    cursor: pointer;
+    font-size: 14px;
+    list-style-type: none;
+    margin-right: 2.5rem;
+}
+.Header button {
+    background-color: var(--Verdigris);
+    border: none;
+    border-radius: 5px;
+    color: var(--White);
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    height: 50px;
+    padding: 0rem 1.8rem;
+}
+#Bars {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:375px) {
+    .Header article {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 350px;
+    }
+    .Header img {
+        width: 100px;
+    }
+    .Header ul {
+        display: flex;
+        flex-direction: column;
+        height: 484px;
+        padding-top: 1.2rem;
+        position: absolute;
+        top: 4.18rem;
+        left: -39.3rem;
+        width: 210px;
+    }
+    .OpenNavigation {
+        background-color: var(--Rich-black-fogra-29);
+        display: flex;
+        flex-direction: column;
+        height: 484px;
+        position: absolute;
+        top: 4.18rem;
+        left: -39.3rem;
+        width: 210px;
+        transform: translateX(360%);
+        transition: all 0.3s linear;
+    }
+    .CloseNavigation{
+        transform: translateX(-90%);
+        transition: all 0.3s linear;
+    }
+    .Header li {
+        border-bottom: 1px solid rgba(190, 183, 183, 0.137);
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+        margin-right: 2rem;
+        padding-left: 0.8rem;
+        padding-bottom: 0.5rem;
+        width: 180px;
+    }
+    .Header Button {
+        margin-left: 1.2rem;
+        width: 150px;
+    }
+    #Bars {
+        color: var(--White);
+        display: block;
+        font-size: 20px;
+        margin-top: 0.8rem;
+        margin-left: 2rem;
+    }
+}
